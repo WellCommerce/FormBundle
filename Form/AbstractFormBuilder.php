@@ -14,10 +14,10 @@ namespace WellCommerce\Bundle\FormBundle\Form;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use WellCommerce\Bundle\CoreBundle\DependencyInjection\AbstractContainerAware;
-use WellCommerce\Bundle\FormBundle\Form\DataTransformer\DataTransformerFactory;
-use WellCommerce\Bundle\FormBundle\Form\DataTransformer\RepositoryAwareDataTransformerInterface;
 use WellCommerce\Bundle\DoctrineBundle\Entity\EntityInterface;
 use WellCommerce\Bundle\DoctrineBundle\Repository\RepositoryInterface;
+use WellCommerce\Bundle\FormBundle\Form\DataTransformer\DataTransformerFactory;
+use WellCommerce\Bundle\FormBundle\Form\DataTransformer\RepositoryAwareDataTransformerInterface;
 use WellCommerce\Component\Form\Dependencies\DependencyInterface;
 use WellCommerce\Component\Form\Elements\ElementInterface;
 use WellCommerce\Component\Form\Elements\FormInterface;
